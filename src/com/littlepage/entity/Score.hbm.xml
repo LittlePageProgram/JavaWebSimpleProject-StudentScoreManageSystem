@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.littlepage.entity">
+    <class name="Score" table="t_score">
+        <id name="scid" column="scid">
+            <generator class="identity">
+            </generator>
+        </id>
+        <property name="subject" column="subject" ></property>
+        <property name="score" column="score"></property>
+        <property name="time" column="time"></property>
+        <property name="isRetake" column="isRetake"></property>
+    </class>
+</hibernate-mapping>

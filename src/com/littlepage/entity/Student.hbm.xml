@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.littlepage.entity">
+    <class name="Student" table="t_student">
+        <id name="sid" column="sid">
+            <generator class="identity">
+            </generator>
+        </id>
+        <property name="snum" column="anum" ></property>
+        <property name="name" column="name"></property>
+        <property name="age" column="age"></property>
+        <property name="clazz" column="clazz"></property>
+        <property name="nativePlace" column="nativePlace"></property>
+        <property name="password" column="password"></property>
+    </class>
+</hibernate-mapping>
+

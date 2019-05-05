@@ -1,0 +1,67 @@
+/* all*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+/* topNevigation*/
+#topNevigation{/*顶部导航*/
+	height: 140px;
+	width: 100%;
+	background-image:url("../img/TopNevigation.png");
+}
+#topNevigation-mosaic{/*顶部马赛克*/
+	height: 40px;
+	width: 100%;
+	background-image: url("../img/TopDistinct.png");
+}
+#topNevigation-mosaic-moment{/*右侧图标*/
+	height: 35px;
+	width: 35px;
+	padding-right: 15%;
+	float: right;
+}
+#topNevigation-mosaic-login{
+	height: 35px;
+	width: 35px;
+	float: right;
+	font-size: 15px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+#topNevigation-mosaic-register{
+	height: 35px;
+	width: 35px;
+	float: right;
+	font-size: 15px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+#topNevigation-mosaic-moment-pic{
+	height: 0px;
+	width:0px;
+	float: left;
+}
+#topNevigation-mosaic-momentTxt{
+	height: 35px;
+	width: 80px;
+	padding-left: 15px;
+	padding-top: 10px;
+	font-size:25px;
+	float: left;
+	font-family:cat ;
+}
+#topNevigation-title{
+	width: 500px;
+	height: 100px;
+	padding: 20px 100px;
+	font-size: 40px;
+	color: #757575;
+}
+/* picture*/
+#pic-moment{
+	width: 80px;
+}

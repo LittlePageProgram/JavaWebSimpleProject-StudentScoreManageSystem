@@ -1,0 +1,17 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>LoginFailed</title>
+</head>
+<style type="text/css">
+    #goToLogin{
+        margin-top: 150px;
+        margin-right: 150px;
+    }
+</style>
+<body>
+<%@include file="head.jsp" %>
+<h1 style="color: #757575; padding-left: 600px;">登录失败</h1>
+<a href="${pageContext.request.contextPath }/index.jsp" id="goToLogin">---------->前往登录界面</a>
+</body>
+</html>
